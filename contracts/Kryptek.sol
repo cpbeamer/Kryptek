@@ -15,7 +15,7 @@ import "contracts/Presets/ERC20Burnable.sol";
  *
  * _Available since v3.4._
  */
-contract Kryptek is ERC20Burnable {
+contract ERC20PresetFixedSupply is ERC20Burnable {
     /**
      * @dev Mints `initialSupply` amount of token and transfers them to `owner`.
      *
